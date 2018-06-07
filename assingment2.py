@@ -7,9 +7,9 @@ print("acad"+"view")
 
 
 Q3
-a=1
-b=2
-c=3
+x=input("enter frist no")
+y=input("enter second no,")
+c=input("enter third number")
 print(a,b,c)
 
 
