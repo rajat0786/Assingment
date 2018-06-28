@@ -28,7 +28,7 @@ bb=Button(frame,text='exit',fg='brown',command=quit )
 bb.pack(side=LEFT)
 db=Button(frame,text='press',fg='brown',command=click)
 db.pack(side=LEFT)
-lb1=Label(root,text='preee before clicked')
+lb1=Label(root,text='')
 lb1.pack()
 root.mainloop()
 
