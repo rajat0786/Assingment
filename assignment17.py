@@ -55,7 +55,7 @@ root.mainloop()
 
 #Q4
 
-
+from tkinter import *
 root = Tk()
 frame=Frame(root,bg='white')
 frame.pack()
@@ -73,7 +73,7 @@ def cal():
   lb1 = Label(frame, text=a+b)
   lb1.grid(row=2, column=1)
   lb1.config(text=a+b)
-lb1 = Label(frame, text="hello")
+lb1 = Label(frame, text="")
 lb1.grid(row=2, column=1)
 
 bb = Button(frame, text='exit', fg='brown', command=quit)
