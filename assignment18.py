@@ -71,7 +71,7 @@ lblname=Label(root,text="Enter Name")
 lblphn=Label(root,text="Enter phone No.")
 e1=Entry(root)
 e2=Entry(root)
-btn=Button(root,text="Save")
+btn=Button(root,text="Save",command=savephnn)
 
 lblname.pack()
 e1.pack()
