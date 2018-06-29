@@ -39,11 +39,12 @@ print(np.sum(x))
 
 #Q4
 import numpy as np
-a=np.random.randint(1,10,10)
+import math
+a=np.random.random((10,1))
 print(a)
-for i in a:
-    c = 1 / (1 + (-i))
-    b=np.array(c)
-
+b=[]
+for i in range (0,10):
+    x=1/(1+math.exp(-(a[i,0])))
+    b.append(x)
 print(b)
 
