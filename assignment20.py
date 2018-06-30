@@ -9,20 +9,20 @@ import pandas as pd
 data=pd.read_csv("datasheet.csv")
 df=pd.DataFrame(data)
 print(df)
-#(i)
+
 print(df.head(5))
-#(ii)
+
 print(df.head(10))
-#(iii)
+
 print(df.shape)
 print(df.axes)
 print(df.sum())
 print(df.describe())
 print(df.size)
 print(df.dtypes)
-#(iv)
+
 print(df.tail(5))
-#(v)
+
 print("2nd column MinTemp:")
 print(df['MinTemp'])
 print(df['MinTemp'].shape)
